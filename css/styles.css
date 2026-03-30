@@ -22,23 +22,72 @@ ul{
 
 /* Exercice 04 */
 
+ul + p{
+  color: red;
+}
+
 /* Exercice 05 */
+
+a[href^= "https://"]{
+  content: 'open_in_new';
+  display: inline-block;
+  font-family: 'Material Symbols Outlined';
+  font-size: 0.875rem;
+  line-height: 1;
+  margin-left: 5px;
+
+}
 
 /* Exercice 06 */
 
+.exercice06 li:nth-child(even){
+  background-color: red;
+}
+
 /* Exercice 07 */
+
+.exercice07 li:nth-child(odd){
+  background-color: red;
+}
 
 /* Exercice 08 */
 
+.exercice08 li:nth-child(-n + 3){
+  background-color: red;
+}
+
 /* Exercice 09 */
+
+.exercice09 li:nth-child(99){
+  background-color: red;
+}
 
 /* Exercice 10 */
 
+.exercice10 li:nth-child(n + 14){
+  background-color: red;
+}
+.exercice10 li:nth-child(n + 24){
+  background-color: #666;
+}
+
 /* Exercice 11 */
+
+.exercice11 ul{
+  border: 3px red solid;
+}
 
 /* Exercice 12 */
 
+.exercice12 > ul:hover{
+  border: 3px red solid;
+}
+
 /* Exercice 13 */
+
+.exercice13 [href$= "jpg"]{
+  border: 3px red solid;
+}
 
 /* Exercice 14 */
 
