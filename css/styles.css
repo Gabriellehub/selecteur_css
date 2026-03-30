@@ -99,11 +99,33 @@ nav a:hover{
 
 /* Exercice 15 */
 
+.exercice15 h2::selection{
+  color: white;
+  background-color: black;
+}
+.exercice15 p::selection{
+  color: white;
+  background-color: gray;
+}
+
 /* Exercice 16 */
+
+.exercice16 p:not([lang="fr"]){
+  color: red;
+}
 
 /* Exercice 17 */
 
+.exercice17 input:checked + label {
+  color: red;
+}
+
 /* Exercice 18 */
+
+h1 .char:last-child{
+  color: #640101;
+}
+
 
 /*-------------------------------------------
 -
