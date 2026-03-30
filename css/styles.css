@@ -28,7 +28,7 @@ ul + p{
 
 /* Exercice 05 */
 
-a[href^= "https://"]{
+.exercice05 li a[href^= "https://"]::after{
   content: 'open_in_new';
   display: inline-block;
   font-family: 'Material Symbols Outlined';
@@ -85,11 +85,17 @@ a[href^= "https://"]{
 
 /* Exercice 13 */
 
-.exercice13 [href$= "jpg"]{
+.exercice13 p > img[src$= "jpg"]{
   border: 3px red solid;
 }
 
 /* Exercice 14 */
+
+nav a:hover{
+  background-color: #BF2A2A;
+  color: black;
+  text-decoration: 3px underline;
+}
 
 /* Exercice 15 */
 
